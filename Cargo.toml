@@ -1,0 +1,14 @@
+[package]
+name = "file_counter"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+crossterm = "0.25"
+dashmap = "5.3"
+ratatui = { version = "0.20", default-features = false, features = [
+    "crossterm",
+] }
+unicode-width = "0.1"
+threadpool = "1.8"
+num_cpus = "1.13"
